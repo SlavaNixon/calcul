@@ -73,8 +73,6 @@ function love.load()
     FontNumber = love.graphics.newFont("fontNumber.ttf", 50)
     love.window.setMode(460, 350)
     backside = love.graphics.newImage("back ps.png")
-    ico = love.image.newImageData("icone.jpg")
-    love.window.setIcon(ico)
     love.window.setTitle("Calculator")
     number_buttons = {}
     local x = 50

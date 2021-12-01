@@ -75,7 +75,7 @@ function love.load()
     backside = love.graphics.newImage("back ps.jpg")
     ico = love.image.newImageData("icone.jpg")
     love.window.setIcon(ico)
-    love.window.setTitle("Unreal flex calculator")
+    love.window.setTitle("Calculator")
     number_buttons = {}
     local x = 50
     local y = 200
